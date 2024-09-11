@@ -1,4 +1,4 @@
-from interfaces.Notification import Notification
+from product.Notification import Notification
 
 
 class SmsNotification(Notification):

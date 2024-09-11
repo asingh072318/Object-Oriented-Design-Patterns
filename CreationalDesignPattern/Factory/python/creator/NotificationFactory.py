@@ -1,6 +1,6 @@
-from products.EmailNotification import EmailNotification
-from products.PushNotification import PushNotification
-from products.SmsNotification import SmsNotification
+from concreteProducts.EmailNotification import EmailNotification
+from concreteProducts.PushNotification import PushNotification
+from concreteProducts.SmsNotification import SmsNotification
 
 
 class NotificationFactory:
