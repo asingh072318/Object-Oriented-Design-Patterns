@@ -3,8 +3,8 @@ package CreationalDesignPattern.Factory.java;
 import CreationalDesignPattern.Factory.java.concreteCreators.EmailNotificationFactory;
 import CreationalDesignPattern.Factory.java.concreteCreators.PushNotificationFactory;
 import CreationalDesignPattern.Factory.java.concreteCreators.SmsNotificationFactory;
-import CreationalDesignPattern.Factory.java.interfaces.Notification;
-import CreationalDesignPattern.Factory.java.interfaces.NotificationFactory;
+import CreationalDesignPattern.Factory.java.creator.NotificationFactory;
+import CreationalDesignPattern.Factory.java.product.Notification;
 
 public class NotificationService {
     public static void main(String[] args){

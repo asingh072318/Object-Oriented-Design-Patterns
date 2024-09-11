@@ -1,6 +1,6 @@
 package CreationalDesignPattern.Factory.java.concreteProducts;
 
-import CreationalDesignPattern.Factory.java.interfaces.Notification;
+import CreationalDesignPattern.Factory.java.product.Notification;
 
 public class SmsNotification implements Notification{
 

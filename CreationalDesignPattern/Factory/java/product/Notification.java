@@ -1,4 +1,4 @@
-package CreationalDesignPattern.Factory.java.interfaces;
+package CreationalDesignPattern.Factory.java.product;
 
 public interface Notification {
     void sendNotification();
